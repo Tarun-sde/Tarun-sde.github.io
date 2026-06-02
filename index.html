@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="style.css">
     <!-- -------------- Font Awesome Link -------------- -->
     <script src="https://kit.fontawesome.com/de270889e1.js" crossorigin="anonymous"></script>
+    <!-- -------------- Owl Carousel Links -------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- -------------- AOS Link -------------- -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -45,9 +53,7 @@
     <section id="home">
         <div class="text-holder">
             <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Tarun <span>Joshi</span></h1>
-            <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">
-                <span id="typed-role">Software Engineer</span> Based in India
-            </h3>
+            <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200"><span>Software Engineer</span> Based in India</h3>
             <div class="button" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1500">
                 <button class="btn">
                     <a href="#portfolio">View My Works</a>
@@ -58,7 +64,7 @@
             <img src="images/yres.jpg" alt="Tarun Joshi">
         </div>
         <div class="social-icons" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="2000"
-            data-aos-anchor-placement="bottom-bottom">
+        data-aos-anchor-placement="bottom-bottom">
             <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer" title="GitHub">
                 <i class="fa-brands fa-github"></i>
             </a>
@@ -73,7 +79,7 @@
             </a>
         </div>
         <div class="scroll-txt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="2000"
-            data-aos-anchor-placement="bottom-bottom">
+        data-aos-anchor-placement="bottom-bottom">
             <a href="#about">Scroll</a>
         </div>
     </section>
@@ -84,44 +90,67 @@
             <div class="about-img" data-aos="fade-right" data-aos-duration="1200">
                 <img src="images/yres.jpg" alt="Tarun Joshi">
             </div>
-            <div class="text-wrapper" data-aos="fade-left" data-aos-duration="1200">
+            <div class="text-wrapper" data-aos="fade-right" data-aos-duration="1200">
                 <h4>Tarun Joshi</h4>
                 <h5>A <span>Full Stack Developer</span> &amp; <span>SDE Intern</span> based in <span>India</span></h5>
-                <p>I'm a passionate Computer Engineering (Software Engineering) student at Jain (Deemed-to-be) University, Bengaluru. As Department Topper with a GPA of 9.3/10, I specialize in building scalable full-stack web applications and solving complex DSA problems. My passion is building real-world solutions that make a difference.</p>
+                <p>I'm a passionate Computer Engineering (Software Engineering) student at Jain (Deemed-to-be) University, Bengaluru. As Department Topper with a GPA of 9.3/10, I specialize in building scalable full-stack web applications and solving complex DSA problems. My passion is building real-world solutions.</p>
                 <div class="about-list">
 
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>Birthday</label>
                         <p>20 Dec 2003</p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>E-mail</label>
                         <p><a href="mailto:tarun.sde.code@gmail.com">tarun.sde.code@gmail.com</a></p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>Phone</label>
                         <p><a href="tel:+917456806457">+91 7456806457</a></p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>GPA</label>
                         <p>9.3 / 10</p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>Degree</label>
                         <p>B.Tech CS (SE)</p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>University</label>
                         <p>Jain University</p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>Address</label>
                         <p>Bengaluru, Karnataka</p>
                     </div>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <div class="list-item">
                         <label>Origin</label>
                         <p>Uttarakhand, India</p>
                     </div>
+                    <!-- List Item End -->
 
                 </div>
                 <button class="btn"><a href="Tarun Resume .pdf" download>Download CV</a></button>
@@ -142,53 +171,65 @@
         </div>
         <div class="container">
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-solid fa-layer-group"></i>
                     <h5>Full Stack Development</h5>
-                    <p>End-to-end web apps using MERN stack (MongoDB, Express, React, Node.js) with clean, scalable architecture.</p>
+                    <p>End-to-end web app development using the MERN stack (MongoDB, Express, React, Node.js) with clean, scalable architecture.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-brands fa-react"></i>
                     <h5>Frontend Development</h5>
-                    <p>Responsive, performant UIs with React.js and Next.js — focusing on great user experience and modern design.</p>
+                    <p>Building responsive, performant UIs with React.js and Next.js — focusing on great user experience and accessibility.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-solid fa-server"></i>
                     <h5>Backend &amp; APIs</h5>
-                    <p>Robust REST APIs with Node.js and Express.js, implementing JWT authentication and database management.</p>
+                    <p>Developing robust REST APIs with Node.js and Express.js, implementing JWT authentication and MongoDB database management.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-solid fa-brain"></i>
                     <h5>Problem Solving &amp; DSA</h5>
-                    <p>Strong algorithmic thinking with 150+ solved problems on LeetCode &amp; Coding Ninjas for optimized solutions.</p>
+                    <p>Strong algorithmic thinking with 150+ solved problems on LeetCode &amp; Coding Ninjas. Available for competitive programming and optimization tasks.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-solid fa-cloud"></i>
                     <h5>Cloud Deployment</h5>
-                    <p>Deploying applications on Vercel, Render and Google Cloud ensuring reliable, scalable production performance.</p>
+                    <p>Deploying applications on Vercel, Render and Google Cloud Platform — ensuring reliable, scalable performance in production.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
-            <div class="service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500" data-aos-easing="ease-in-out">
+            <!-- Service Card Start -->
+            <div class="service-card" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
                 <div class="card-content">
                     <i class="fa-solid fa-chart-line"></i>
                     <h5>Data Analysis</h5>
-                    <p>Data processing and visualization using Python, NumPy, Pandas and Matplotlib for meaningful insights.</p>
+                    <p>Data processing and visualization using Python, NumPy, Pandas and Matplotlib to extract meaningful insights from data.</p>
                 </div>
             </div>
+            <!-- Service Card End -->
 
         </div>
     </section>
@@ -201,80 +242,90 @@
             </div>
             <div class="animate-bar"></div>
             <div class="sub-heading">
-                <p>B.Tech Computer Engineering (Software Engineering) at Jain University — Department Topper with real-world internship and project experience.</p>
+                <p>B.Tech Computer Engineering student (Software Engineering specialization) at Jain University — Department Topper with hands-on internship and project experience.</p>
             </div>
         </div>
         <div class="container">
 
-            <!-- Experience -->
+            <!-- -------------- Experience Part -------------- -->
             <div class="experience" data-aos="fade-right" data-aos-duration="1200">
                 <div class="title">
                     <h4>Experience</h4>
                 </div>
 
+                <!-- Resume Item Start -->
                 <div class="resume-item">
                     <div class="item-arrow"></div>
                     <h5>SDE Intern</h5>
-                    <span>RD Infro Tech &nbsp;·&nbsp; Feb 2025 – Apr 2025</span>
+                    <span>RD Infro Tech · Bengaluru · Feb 2025 – Apr 2025</span>
                     <ul>
                         <li>Developed a web-based inventory &amp; sales management system for retail businesses.</li>
-                        <li>Implemented product expiry date tracking to reduce inventory loss.</li>
+                        <li>Implemented product expiry tracking to reduce inventory loss for shop owners.</li>
                         <li>Built product addition, inventory updates &amp; daily sales analysis features.</li>
-                        <li>Designed for ease-of-use by non-technical shop owners.</li>
+                        <li>Focused on usability for non-technical users; gained hands-on debugging experience.</li>
                     </ul>
                 </div>
+                <!-- Resume Item End -->
 
+                <!-- Resume Item Start -->
                 <div class="resume-item">
                     <div class="item-arrow"></div>
                     <h5>Team Lead</h5>
-                    <span>CodeBrewer Student Group &nbsp;·&nbsp; 2024 – Present</span>
+                    <span>CodeBrewer Student Group · Bengaluru · 2024 – Present</span>
                     <ul>
-                        <li>Led team participation in hackathons, entrepreneurship fests and technical events.</li>
-                        <li>Presented Cultouria at Smart India Hackathon — 250+ shortlisted teams.</li>
-                        <li>Coordinated planning, task delegation and project delivery under pressure.</li>
+                        <li>Spearheaded team participation in multiple hackathons &amp; entrepreneurship fests.</li>
+                        <li>Presented Cultouria at Smart India Hackathon &amp; Jain University Entrepreneurship Week (250+ shortlisted teams).</li>
+                        <li>Coordinated end-to-end planning, task delegation and presentations.</li>
                     </ul>
                 </div>
+                <!-- Resume Item End -->
 
             </div>
 
-            <!-- Education -->
-            <div class="education" data-aos="fade-left" data-aos-duration="1200">
+            <!-- -------------- Education Part -------------- -->
+            <div class="education" data-aos="fade-right" data-aos-duration="1200">
                 <div class="title">
                     <h4>Education</h4>
                 </div>
 
+                <!-- Resume Item Start -->
                 <div class="resume-item">
                     <div class="item-arrow"></div>
-                    <h5>B.Tech Computer Engineering – SE</h5>
-                    <span>Jain (Deemed-to-be) University &nbsp;·&nbsp; 2023 – May 2027</span>
+                    <h5>B.Tech in Computer Engineering – SE</h5>
+                    <span>Jain (Deemed-to-be) University · Bengaluru · 2023 – May 2027 (Expected)</span>
                     <ul>
-                        <li>GPA: 9.3 / 10 — Department Topper for 3 consecutive years</li>
+                        <li>GPA: 9.3 / 10 — Department Topper for 3 consecutive years (9.1–9.3)</li>
                         <li>Specialization: Software Engineering</li>
-                        <li>Coursework: DSA, OS, DBMS, OOP, Full Stack Dev, Software Engg, Game Theory</li>
+                        <li>Coursework: DSA, OS, DBMS, Full Stack Dev, OOP, Software Engineering, Game Theory</li>
                     </ul>
                 </div>
+                <!-- Resume Item End -->
 
+                <!-- Resume Item Start -->
                 <div class="resume-item">
                     <div class="item-arrow"></div>
                     <h5>Competitive Programming</h5>
                     <span>LeetCode / Coding Ninjas — Ongoing</span>
                     <ul>
-                        <li>150+ DSA problems solved across LeetCode and Coding Ninjas.</li>
-                        <li>Strong consistency in competitive programming and problem solving.</li>
-                        <li><a href="https://leetcode.com/u/tarun_joshi/" target="_blank" rel="noopener noreferrer" class="resume-link">View LeetCode Profile →</a></li>
+                        <li>Solved 150+ DSA problems across LeetCode and Coding Ninjas.</li>
+                        <li>Strong problem-solving skills and consistency in competitive programming.</li>
+                        <li><a href="https://leetcode.com/u/tarun_joshi/" target="_blank" rel="noopener noreferrer" style="color:#FF2626; text-decoration:none;">leetcode.com/u/tarun_joshi →</a></li>
                     </ul>
                 </div>
+                <!-- Resume Item End -->
 
+                <!-- Resume Item Start -->
                 <div class="resume-item">
                     <div class="item-arrow"></div>
                     <h5>Achievements</h5>
-                    <span>Hackathons &amp; Academic Recognition</span>
+                    <span>Hackathons &amp; Academic</span>
                     <ul>
                         <li>Smart India Hackathon — presented among 250+ shortlisted teams.</li>
-                        <li>Jain University Entrepreneurship Week Festival — team project showcase.</li>
-                        <li>Department Topper for 3 consecutive years (GPA 9.1–9.3).</li>
+                        <li>Jain University Entrepreneurship Week — team project showcase.</li>
+                        <li>Dept. Topper for 3 consecutive years in CS (Software Engineering).</li>
                     </ul>
                 </div>
+                <!-- Resume Item End -->
 
             </div>
         </div>
@@ -287,37 +338,74 @@
                 </div>
                 <div class="animate-bar"></div>
             </div>
+
             <div class="container">
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>DSA / Problem Solving</h5></div>
-                    <div class="progress-bar"><div class="progress-line dsa"></div></div>
+                    <div class="text">
+                        <h5>DSA / Problem Solving</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line dsa"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>HTML / CSS</h5></div>
-                    <div class="progress-bar"><div class="progress-line html"></div></div>
+                    <div class="text">
+                        <h5>HTML / CSS</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line html"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>JavaScript</h5></div>
-                    <div class="progress-bar"><div class="progress-line js"></div></div>
+                    <div class="text">
+                        <h5>JavaScript</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line js"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>React / Next.js</h5></div>
-                    <div class="progress-bar"><div class="progress-line react"></div></div>
+                    <div class="text">
+                        <h5>React / Next.js</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line react"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>Python</h5></div>
-                    <div class="progress-bar"><div class="progress-line python"></div></div>
+                    <div class="text">
+                        <h5>Python</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line python"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
+                <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text"><h5>C / C++</h5></div>
-                    <div class="progress-bar"><div class="progress-line cpp"></div></div>
+                    <div class="text">
+                        <h5>C / C++</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-line cpp"></div>
+                    </div>
                 </div>
+                <!-- Progress Item End -->
 
             </div>
         </section>
@@ -331,10 +419,11 @@
             </div>
             <div class="animate-bar"></div>
             <div class="sub-heading">
-                <p>Real-world projects I've designed and built — from full-stack web apps to innovative tech platforms.</p>
+                <p>A selection of real-world projects I've designed and built — from full-stack web apps to innovative tech platforms.</p>
             </div>
         </div>
 
+        <!-- -------------- Gallery -------------- -->
         <div class="gallery-wrapper">
             <div class="gallery-nav">
                 <div class="gallery-filter">
@@ -346,59 +435,115 @@
             </div>
             <div class="content-wrapper">
 
-                <!-- IronLog -->
-                <div class="gallery-item brand" data-aos="fade-up" data-aos-duration="1200">
+                <!-- Gallery Item Start — IronLog -->
+                <div class="gallery-item brand" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="images/ironlog_preview.png" alt="IronLog Fitness Tracking App">
+                        <img src="images/yres.jpg" alt="IronLog Fitness App" style="height:220px; object-fit:cover;">
                         <div class="overlay">
                             <h5>IronLog – Fitness Tracker</h5>
-                            <p>React · Node.js · MongoDB · JWT</p>
-                            <div class="overlay-links">
-                                <a href="https://ironlog-dusky.vercel.app" target="_blank" rel="noopener noreferrer" class="overlay-btn">Live Demo ↗</a>
-                                <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub ↗</a>
-                            </div>
+                            <p>
+                                <a href="https://ironlog-dusky.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    Live Demo ↗
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
+                <!-- Gallery Item End -->
 
-                <!-- Cultouria -->
-                <div class="gallery-item design" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                <!-- Gallery Item Start — Cultouria -->
+                <div class="gallery-item design" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="images/cultouria_preview.png" alt="Cultouria Sustainable Tourism Platform">
+                        <img src="images/weds.jpg" alt="Cultouria Platform" style="height:220px; object-fit:cover;">
                         <div class="overlay">
                             <h5>Cultouria – Smart Tourism</h5>
-                            <p>AI · AR · Blockchain · Sustainability</p>
-                            <div class="overlay-links">
-                                <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer" class="overlay-btn">View Code ↗</a>
-                            </div>
+                            <p>
+                                <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer">
+                                    View Code ↗
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
+                <!-- Gallery Item End -->
 
-                <!-- Inventory System -->
-                <div class="gallery-item photos" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <!-- Gallery Item Start — Inventory -->
+                <div class="gallery-item photos" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="images/inventory_preview.png" alt="Retail Inventory Management System">
+                        <img src="images/waste.jpg" alt="Retail Inventory System" style="height:220px; object-fit:cover;">
                         <div class="overlay">
                             <h5>Retail Inventory System</h5>
-                            <p>JavaScript · Node.js · Sales Analytics</p>
-                            <div class="overlay-links">
-                                <span class="overlay-badge">Internship @ RD Infro Tech</span>
-                            </div>
+                            <p>Internship @ RD Infro Tech</p>
                         </div>
                     </div>
                 </div>
+                <!-- Gallery Item End -->
 
             </div>
         </div>
 
-        <div class="portfolio-cta" data-aos="fade-up" data-aos-duration="1200">
-            <p>See more of my work on GitHub</p>
-            <button class="btn">
-                <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-github"></i> View GitHub Profile
-                </a>
-            </button>
+    </section>
+
+    <!-- -------------- Reviews Section -------------- -->
+    <section id="reviews">
+
+        <!-- -------------- Carousel -------------- -->
+        <div class="owl-carousel owl-theme">
+
+            <!-- Review Item Start -->
+            <div class="item" data-aos="fade-up">
+                <div class="img-box">
+                    <img src="images/deepu.jpg" alt="Reviewer">
+                </div>
+                <div class="text-holder">
+                    <p class="details">
+                        Tarun is an exceptional developer with a sharp mind for both frontend and backend. His IronLog project is clean, well-structured and production-ready. A future SDE star!
+                    </p>
+                    <h6 class="name">Devender</h6>
+                    <div class="rating">
+                        <i class="fa-solid fa-star" style="color:#ffc800;"></i>
+                        <span>5.0</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Review Item End -->
+
+            <!-- Review Item Start -->
+            <div class="item" data-aos="fade-up">
+                <div class="img-box">
+                    <img src="images/bhabhi.jpg" alt="Reviewer">
+                </div>
+                <div class="text-holder">
+                    <p class="details">
+                        Working with Tarun on Cultouria was amazing. He led our team brilliantly — coordinating tasks, ideating solutions and delivering under pressure. A natural team lead and great coder.
+                    </p>
+                    <h6 class="name">Team Member</h6>
+                    <div class="rating">
+                        <i class="fa-solid fa-star" style="color:#ffc800;"></i>
+                        <span>5.0</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Review Item End -->
+
+            <!-- Review Item Start -->
+            <div class="item" data-aos="fade-up">
+                <div class="img-box">
+                    <img src="images/weds.jpg" alt="Reviewer">
+                </div>
+                <div class="text-holder">
+                    <p class="details">
+                        Tarun delivered our inventory management system at RD Infro Tech on time and with excellent quality. He understood our business requirements quickly and built a very user-friendly solution.
+                    </p>
+                    <h6 class="name">RD Infro Tech</h6>
+                    <div class="rating">
+                        <i class="fa-solid fa-star" style="color:#ffc800;"></i>
+                        <span>4.9</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Review Item End -->
+
         </div>
     </section>
 
@@ -412,11 +557,11 @@
         </div>
 
         <div class="container">
-            <form action="mailto:tarun.sde.code@gmail.com" method="POST" enctype="text/plain"
-                data-aos="fade-right" data-aos-duration="1200">
+            <form action="mailto:tarun.sde.code@gmail.com" method="POST" enctype="text/plain" data-aos="fade-right" data-aos-duration="1200">
                 <div class="title">
                     <h4>Message Me</h4>
                 </div>
+
                 <div class="form-row">
                     <div class="input-data">
                         <input type="text" name="Name" placeholder="Name" required>
@@ -432,11 +577,11 @@
                     <textarea name="Message" placeholder="Message" required></textarea>
                 </div>
                 <div class="form-row">
-                    <input type="submit" value="Send Message" class="btn">
+                    <input type="submit" value="Send Your Message" class="btn">
                 </div>
             </form>
 
-            <div class="contact-info" data-aos="fade-left" data-aos-duration="1200">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1200">
                 <div class="title">
                     <h4>Contact Info</h4>
                 </div>
@@ -445,55 +590,91 @@
                 </div>
 
                 <ul class="contact-list">
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-solid fa-user"></i></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
                         <div class="details">
-                            <label>Name</label>
+                            <label for="#">Name</label>
                             <p>Tarun Joshi</p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
                         <div class="details">
-                            <label>Location</label>
+                            <label for="#">Location</label>
                             <p>Bengaluru, Karnataka, India</p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
                         <div class="details">
-                            <label>Phone</label>
+                            <label for="#">Phone</label>
                             <p><a href="tel:+917456806457">+91 7456806457</a></p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-solid fa-at"></i></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-at"></i>
+                        </div>
                         <div class="details">
-                            <label>Email</label>
+                            <label for="#">Email</label>
                             <p><a href="mailto:tarun.sde.code@gmail.com">tarun.sde.code@gmail.com</a></p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
                         <div class="details">
-                            <label>GitHub</label>
+                            <label for="#">GitHub</label>
                             <p><a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer">github.com/Tarun-sde</a></p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
                         <div class="details">
-                            <label>LinkedIn</label>
+                            <label for="#">LinkedIn</label>
                             <p><a href="https://www.linkedin.com/in/tarunjoshi" target="_blank" rel="noopener noreferrer">linkedin.com/in/tarunjoshi</a></p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
+                    <!-- List Item Start -->
                     <li class="list-item">
-                        <div class="icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
                         <div class="details">
-                            <label>LeetCode</label>
+                            <label for="#">LeetCode</label>
                             <p><a href="https://leetcode.com/u/tarun_joshi/" target="_blank" rel="noopener noreferrer">leetcode.com/u/tarun_joshi</a></p>
                         </div>
                     </li>
+                    <!-- List Item End -->
+
                 </ul>
             </div>
         </div>
@@ -502,12 +683,19 @@
 
     <!-- -------------- Footer -------------- -->
     <footer>
-        <p>Tarun Joshi &copy; All Rights Reserved 2025 &nbsp;·&nbsp;
-            <a href="https://github.com/Tarun-sde" target="_blank" rel="noopener noreferrer" style="color:#FF2626; text-decoration:none;">GitHub</a> &nbsp;·&nbsp;
-            <a href="https://leetcode.com/u/tarun_joshi/" target="_blank" rel="noopener noreferrer" style="color:#FF2626; text-decoration:none;">LeetCode</a>
-        </p>
+        <p>Tarun Joshi &copy; All Rights Reserved 2025</p>
     </footer>
 
+
+    <!-- -------------- Jquery Scripts -------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- -------------- Owl Carousel Scripts -------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- -------------- AOS Scripts -------------- -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
